@@ -1,0 +1,55 @@
+.steps{
+    border: solid #F7F5F7 1px;
+    padding: 20px;
+    margin: 80px 450px;
+    width: 350px;
+    height: 180px;
+    background-color: #F7F5F7;
+    border-radius: 1.5%;
+}
+.numbers{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.number{
+    background-color: #E3E2E1 ;
+    border-radius: 30px;
+    text-align: center;
+    width: 20px;
+    border: solid #E3E2E1 1px;
+    font: bold 16px "Fira Sans", sans-serif;
+    padding: 3px;
+}
+.number.selected{
+    background-color: #7045F9;
+    border: solid #7045F9 1px;
+    color: white;
+}
+.message{
+    margin:30px;
+    font: bold 1.2em "Fira Sans", sans-serif;
+    font-size: large;
+    text-align: center;
+}
+.buttons{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: max-content;
+    padding: 8px;
+    background-color: #7045F9;
+    border: solid #7045F9 1px;
+    color: white;
+    border-radius: 30px;
+}
+.img{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.reactIcon{
+    vertical-align: middle;
+}
